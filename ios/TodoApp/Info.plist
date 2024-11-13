@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,140 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fonts/FontAwesome.ttf</string>
+		<string>fonts/Ionicons.ttf</string>
+		<string>fonts/Foundation.ttf</string>
+		<string>fonts/MaterialCommunityIcons.ttf</string>
+		<string>fonts/EvilIcons.ttf</string>
+		<string>fonts/MaterialIcons.ttf</string>
+		<string>fonts/Feather.ttf</string>
+		<string>Saira-Black.ttf</string>
+		<string>Saira-BlackItalic.ttf</string>
+		<string>Saira-Bold.ttf</string>
+		<string>Saira-BoldItalic.ttf</string>
+		<string>Saira-ExtraBold.ttf</string>
+		<string>Saira-ExtraBoldItalic.ttf</string>
+		<string>Saira-ExtraLight.ttf</string>
+		<string>Saira-ExtraLightItalic.ttf</string>
+		<string>Saira-Italic.ttf</string>
+		<string>Saira-Light.ttf</string>
+		<string>Saira-LightItalic.ttf</string>
+		<string>Saira-Medium.ttf</string>
+		<string>Saira-MediumItalic.ttf</string>
+		<string>Saira-Regular.ttf</string>
+		<string>Saira-SemiBold.ttf</string>
+		<string>Saira-SemiBoldItalic.ttf</string>
+		<string>Saira-Thin.ttf</string>
+		<string>Saira-ThinItalic.ttf</string>
+		<string>Saira_Condensed-BlackItalic.ttf</string>
+		<string>Saira_Condensed-Bold.ttf</string>
+		<string>Saira_Condensed-BoldItalic.ttf</string>
+		<string>Saira_Condensed-ExtraBold.ttf</string>
+		<string>Saira_Condensed-ExtraBoldItalic.ttf</string>
+		<string>Saira_Condensed-ExtraLight.ttf</string>
+		<string>Saira_Condensed-ExtraLightItalic.ttf</string>
+		<string>Saira_Condensed-Italic.ttf</string>
+		<string>Saira_Condensed-Light.ttf</string>
+		<string>Saira_Condensed-LightItalic.ttf</string>
+		<string>Saira_Condensed-Medium.ttf</string>
+		<string>Saira_Condensed-MediumItalic.ttf</string>
+		<string>Saira_Condensed-Regular.ttf</string>
+		<string>Saira_Condensed-SemiBold.ttf</string>
+		<string>Saira_Condensed-SemiBoldItalic.ttf</string>
+		<string>Saira_Condensed-Thin.ttf</string>
+		<string>Saira_Condensed-ThinItalic.ttf</string>
+		<string>Saira_Expanded-Black.ttf</string>
+		<string>Saira_Expanded-BlackItalic.ttf</string>
+		<string>Saira_Expanded-Bold.ttf</string>
+		<string>Saira_Expanded-BoldItalic.ttf</string>
+		<string>Saira_Expanded-ExtraBold.ttf</string>
+		<string>Saira_Expanded-ExtraBoldItalic.ttf</string>
+		<string>Saira_Expanded-ExtraLight.ttf</string>
+		<string>Saira_Expanded-ExtraLightItalic.ttf</string>
+		<string>Saira_Expanded-Italic.ttf</string>
+		<string>Saira_Expanded-Light.ttf</string>
+		<string>Saira_Expanded-LightItalic.ttf</string>
+		<string>Saira_Expanded-Medium.ttf</string>
+		<string>Saira_Expanded-MediumItalic.ttf</string>
+		<string>Saira_Expanded-Regular.ttf</string>
+		<string>Saira_Expanded-SemiBold.ttf</string>
+		<string>Saira_Expanded-SemiBoldItalic.ttf</string>
+		<string>Saira_Expanded-Thin.ttf</string>
+		<string>Saira_Expanded-ThinItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Black.ttf</string>
+		<string>Saira_ExtraCondensed-BlackItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Bold.ttf</string>
+		<string>Saira_ExtraCondensed-BoldItalic.ttf</string>
+		<string>Saira_ExtraCondensed-ExtraBold.ttf</string>
+		<string>Saira_ExtraCondensed-ExtraBoldItalic.ttf</string>
+		<string>Saira_ExtraCondensed-ExtraLight.ttf</string>
+		<string>Saira_ExtraCondensed-ExtraLightItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Italic.ttf</string>
+		<string>Saira_ExtraCondensed-Light.ttf</string>
+		<string>Saira_ExtraCondensed-LightItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Medium.ttf</string>
+		<string>Saira_ExtraCondensed-MediumItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Regular.ttf</string>
+		<string>Saira_ExtraCondensed-SemiBold.ttf</string>
+		<string>Saira_ExtraCondensed-SemiBoldItalic.ttf</string>
+		<string>Saira_ExtraCondensed-Thin.ttf</string>
+		<string>Saira_ExtraCondensed-ThinItalic.ttf</string>
+		<string>Saira_SemiCondensed-Black.ttf</string>
+		<string>Saira_SemiCondensed-BlackItalic.ttf</string>
+		<string>Saira_SemiCondensed-Bold.ttf</string>
+		<string>Saira_SemiCondensed-BoldItalic.ttf</string>
+		<string>Saira_SemiCondensed-ExtraBold.ttf</string>
+		<string>Saira_SemiCondensed-ExtraBoldItalic.ttf</string>
+		<string>Saira_SemiCondensed-ExtraLight.ttf</string>
+		<string>Saira_SemiCondensed-ExtraLightItalic.ttf</string>
+		<string>Saira_SemiCondensed-Italic.ttf</string>
+		<string>Saira_SemiCondensed-Light.ttf</string>
+		<string>Saira_SemiCondensed-LightItalic.ttf</string>
+		<string>Saira_SemiCondensed-Medium.ttf</string>
+		<string>Saira_SemiCondensed-MediumItalic.ttf</string>
+		<string>Saira_SemiCondensed-Regular.ttf</string>
+		<string>Saira_SemiCondensed-SemiBold.ttf</string>
+		<string>Saira_SemiCondensed-SemiBoldItalic.ttf</string>
+		<string>Saira_SemiCondensed-Thin.ttf</string>
+		<string>Saira_SemiCondensed-ThinItalic.ttf</string>
+		<string>Saira_SemiExpanded-Black.ttf</string>
+		<string>Saira_SemiExpanded-BlackItalic.ttf</string>
+		<string>Saira_SemiExpanded-Bold.ttf</string>
+		<string>Saira_SemiExpanded-BoldItalic.ttf</string>
+		<string>Saira_SemiExpanded-ExtraBold.ttf</string>
+		<string>Saira_SemiExpanded-ExtraBoldItalic.ttf</string>
+		<string>Saira_SemiExpanded-ExtraLight.ttf</string>
+		<string>Saira_SemiExpanded-ExtraLightItalic.ttf</string>
+		<string>Saira_SemiExpanded-Italic.ttf</string>
+		<string>Saira_SemiExpanded-Light.ttf</string>
+		<string>Saira_SemiExpanded-LightItalic.ttf</string>
+		<string>Saira_SemiExpanded-Medium.ttf</string>
+		<string>Saira_SemiExpanded-MediumItalic.ttf</string>
+		<string>Saira_SemiExpanded-Regular.ttf</string>
+		<string>Saira_SemiExpanded-SemiBold.ttf</string>
+		<string>Saira_SemiExpanded-SemiBoldItalic.ttf</string>
+		<string>Saira_SemiExpanded-Thin.ttf</string>
+		<string>Saira_SemiExpanded-ThinItalic.ttf</string>
+		<string>Saira_UltraCondensed-Black.ttf</string>
+		<string>Saira_UltraCondensed-BlackItalic.ttf</string>
+		<string>Saira_UltraCondensed-Bold.ttf</string>
+		<string>Saira_UltraCondensed-BoldItalic.ttf</string>
+		<string>Saira_UltraCondensed-ExtraBold.ttf</string>
+		<string>Saira_UltraCondensed-ExtraBoldItalic.ttf</string>
+		<string>Saira_UltraCondensed-ExtraLight.ttf</string>
+		<string>Saira_UltraCondensed-ExtraLightItalic.ttf</string>
+		<string>Saira_UltraCondensed-Italic.ttf</string>
+		<string>Saira_UltraCondensed-Light.ttf</string>
+		<string>Saira_UltraCondensed-LightItalic.ttf</string>
+		<string>Saira_UltraCondensed-Medium.ttf</string>
+		<string>Saira_UltraCondensed-MediumItalic.ttf</string>
+		<string>Saira_UltraCondensed-Regular.ttf</string>
+		<string>Saira_UltraCondensed-SemiBold.ttf</string>
+		<string>Saira_UltraCondensed-SemiBoldItalic.ttf</string>
+		<string>Saira_UltraCondensed-Thin.ttf</string>
+		<string>Saira_UltraCondensed-ThinItalic.ttf</string>
+	</array>
 </dict>
 </plist>
